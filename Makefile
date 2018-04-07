@@ -1,5 +1,5 @@
 
-# Used to compile the shared library to interface between python and C.
+# Used to compile the shared library to interface between python and C++.
 
 BOOSTPYTHON = -I /usr/include/python3.5/ -lboost_python-py35
 SHAREDSET   = -shared -Wl,-soname,example -fPIC
