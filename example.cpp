@@ -20,7 +20,7 @@ const T power(T base, T exponent) {
 
     if (exponent == 0) return 1;
 
-    for (;exponent > 1;--exponent) {
+    for (; exponent > 1; --exponent) {
         local_base = local_base * base;
     }
 
