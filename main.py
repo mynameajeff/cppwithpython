@@ -1,8 +1,10 @@
 
 import timeit
+import sys
 import os
 
-os.system("make")
+if "--nomake" not in sys.argv:
+	os.system("make")
 
 import example
 
